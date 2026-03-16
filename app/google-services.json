@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "737598246100",
+    "project_id": "weatherpickapp",
+    "storage_bucket": "weatherpickapp.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:737598246100:android:0e08b3c6559a369ccaff41",
+        "android_client_info": {
+          "package_name": "edu.sungshin.weatherpick"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC4BJmd8rTm94SEN0GWaBU7qb-ovpJ6YfA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:737598246100:android:1512d474bb7dcbc1caff41",
+        "android_client_info": {
+          "package_name": "edu.sungshin.weatherpick"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC4BJmd8rTm94SEN0GWaBU7qb-ovpJ6YfA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

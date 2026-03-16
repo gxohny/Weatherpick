@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Weatherpick</string>
+    <string name="hello_android">Hello Android!</string>
+    <string name="welcome">Welcome!</string>
+    <string name="sign_in">Sign In</string>
+    <string name="enter_all_values">모든 값을 입력해 주세요.</string>
+    <string name="login_successful">로그인 성공!</string>
+    <string name="go_to_mypage">마이페이지로 보기</string>
+    <string name="save_sentence">문구 저장</string>
+    <string name="back">뒤로 가기</string>
+</resources>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <LinearLayout
+        android:id="@+id/layout_region_select_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="@android:color/white">
+
+        <ImageView
+            android:id="@+id/logoImage"
+            android:layout_width="2000dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="24dp"
+            android:src="@drawable/logo1"
+            android:scaleType="fitCenter"
+            android:contentDescription="@string/app_name"
+            android:layout_gravity="center" />
+
+        <LinearLayout
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/dialog_bg"
+            android:padding="24dp"
+            android:elevation="8dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="지역 선택"
+                android:textSize="16sp"
+                android:textColor="#1d1d1d"
+                android:layout_marginBottom="4dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="위치 접근이 허용 되지 않았어요 😢\n날씨를 확인할 지역을 직접 선택해주세요."
+                android:textSize="13sp"
+                android:textColor="#4d4d4d"
+                android:layout_marginBottom="14dp" />
+
+            <Button
+                android:id="@+id/btn_seoul"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:text="서울특별시"
+                android:textColor="@color/white"
+                android:background="@drawable/region_btn_bg"
+                android:layout_marginBottom="8dp" />
+
+            <Button
+                android:id="@+id/btn_gyeonggi"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:text="경기도"
+                android:textColor="@color/white"
+                android:background="@drawable/region_btn_bg"
+                android:layout_marginBottom="8dp" />
+
+            <Button
+                android:id="@+id/btn_gangwon"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:text="강원도"
+                android:textColor="@color/white"
+                android:background="@drawable/region_btn_bg"
+                android:layout_marginBottom="8dp" />
+
+            <Button
+                android:id="@+id/btn_gyeongsang"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:text="경상도"
+                android:textColor="@color/white"
+                android:background="@drawable/region_btn_bg"
+                android:layout_marginBottom="8dp" />
+
+            <Button
+                android:id="@+id/btn_jeolla"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:text="전라도"
+                android:textColor="@color/white"
+                android:background="@drawable/region_btn_bg"
+                android:layout_marginBottom="8dp" />
+
+            <Button
+                android:id="@+id/btn_chungcheong"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:text="충청도"
+                android:textColor="@color/white"
+                android:background="@drawable/region_btn_bg"
+                android:layout_marginBottom="8dp" />
+
+            <Button
+                android:id="@+id/btn_jeju"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:text="제주"
+                android:textColor="@color/white"
+                android:background="@drawable/region_btn_bg"
+                android:layout_marginBottom="8dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <include
+        layout="@layout/layout_weather_bottom_sheet" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
